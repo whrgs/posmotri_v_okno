@@ -309,3 +309,10 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
   outline: 6px solid white;
   outline-offset: -30px;
 }
+.content__video-card {
+  background-color: transparent;
+}
+
+.content__card-link_current .content__video-card {
+  background-color: #545050;
+}
