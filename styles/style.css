@@ -18,6 +18,10 @@ html {
   background-color: #1b1919;
 }
 
+input{
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -36,6 +40,7 @@ ul,
 ol {
   list-style: none;
 }
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -307,6 +312,3 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox {
 .content__card-link_current .content__video-card {
   background-color: #545050;
 }
-
-
-
