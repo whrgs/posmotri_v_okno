@@ -217,6 +217,10 @@ fieldset{
   font-weight: 700;
   text-transform: uppercase;
   line-height: 100%;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 200px;
 }
 
 .content__video-card-description{
@@ -278,6 +282,9 @@ fieldset{
   gap: 5px;
 }
 
+.search-form__label:hover{
+text-decoration: underline;
+}
 .search-form__label-text{
   color: #FFF;
   font-family: Fira Sans Condensed, sans-serif;
@@ -292,7 +299,7 @@ fieldset{
   align-items: center;
   margin-bottom: 5px;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .search-form__pseudo-checkbox{
   margin-top: 1px;
